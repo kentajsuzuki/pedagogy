@@ -1,0 +1,56 @@
+@import url("https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css");
+
+:root {
+  --bg: #1c1c1c;
+  --fg: #e6e6e6;
+  --muted: #a0a0a0;
+  --link: #d6b27c;
+  --link-hover: #f0c987;
+}
+
+html {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: "Georgia", "Times New Roman", serif;
+  line-height: 1.6;
+}
+
+body {
+  max-width: 700px;
+  margin: 4rem auto;
+  padding: 0 1.2rem;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--link-hover);
+}
+
+.article-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.article-list li {
+  margin-bottom: 0.6rem;
+}
+
+.meta {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+footer {
+  margin-top: 4rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
